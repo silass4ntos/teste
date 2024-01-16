@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>penetration test</title>
+</head>
+<body>
+    <div>
+        <form action="" onsubmit="teste()" method="get">
+        <h1>insert your e-mail</h1>
+        <input type="text" id="email" placeholder="e-mail" required>
+        <h1>insert your password</h1>
+        <input type="text" placeholder="password" required>
+        <h1><button>send ✉</button></h1>
+    </form>
+
+    </div>
+</body>
+    <script>
+
+        function teste(){
+        const fs = require('fs');
+        texto = email.value;
+        console.log(texto)
+        alert(texto)
+        fs.writeFile('file.txt', 'texto')
+        }
+
+    </script>
+</html>

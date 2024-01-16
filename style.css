@@ -1,0 +1,27 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    background-color: rgb(67, 103, 234);
+}
+
+div{
+    text-align: center;
+    margin-top: 17%;
+    color: aliceblue;
+}
+button{
+    color: white;
+    background-color: rgb(136, 189, 145);
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    padding-bottom: 7px;
+}
+input{
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    padding-left: 17px;
+}
